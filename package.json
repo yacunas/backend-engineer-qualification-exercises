@@ -4,6 +4,7 @@
   "description": "Backend engineer coding exercises",
   "main": "index.js",
   "dependencies": {
+    "@formulajs/formulajs": "^3.1.4",
     "@highoutput/delay": "^0.2.1",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
@@ -11,6 +12,9 @@
     "@types/ramda": "^0.27.3",
     "@types/sinon": "^9.0.0",
     "chai": "^4.2.0",
+    "dateformat": "^5.0.3",
+    "lodash": "^4.17.21",
+    "lodash.memoize": "^4.1.2",
     "luxon": "^1.24.1",
     "mocha": "^7.1.1",
     "ramda": "^0.27.0",
@@ -19,7 +23,7 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "TS_NODE_PROJECT=tsconfig.json TS_NODE_FILES=true mocha \"./**/*.spec.ts\""
+    "test": "mocha \"./**/*.spec.ts\" "
   },
   "repository": {
     "type": "git",
